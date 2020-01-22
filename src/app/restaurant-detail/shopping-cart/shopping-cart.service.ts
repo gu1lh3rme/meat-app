@@ -27,7 +27,7 @@ export class ShoppingCartService{
             this.removeItem(item)
         }
     }
-
+    
     removeItem(item: CartItem){
         this.items.splice(this.items.indexOf(item), 1)
     }
